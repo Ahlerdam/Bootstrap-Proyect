@@ -1,14 +1,35 @@
-.jumbotron {
-    background-color: rgb(4, 173, 252)53, 238, 238);
-    color: black;
-};
 
-.card-hotel {
+.jumbotron {
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.navconfig .listnav .enlace{
+    color: white;
+}
+.col{
     padding: 10px 10px;
     margin: 15px 15px 15px 15px;
-    background-color: blue;
-};
+}
 
 .btn{
-    width: 100%;
-};
+    width: 50%;
+}
+
+footer{
+    background-color: rgb(180, 180, 180);
+    margin-top: 10px;
+}
+
+.footer-enlaces p a{
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-enlaces p a:hover{
+    color: white;
+}
+

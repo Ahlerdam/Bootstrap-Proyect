@@ -8,11 +8,72 @@
         <link rel="stylesheet" href="/css/main.css">
         <title>Guia hotelera</title>
     </head>
-    <body>
-        <div class="jumbotron ">
-            <h1 class="container">HOTELES</h1>
+    <body>        
+        <!-- #region -->
+        <div class="container">
+            <nav class="navbar=fixed navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Guia Hoteles</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Hoteles <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Reservas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
         </div>
-            <div class="container">
+        <!-- #endregion -->
+        <!-- inicio encabezado -->
+        <div class="container">
+            <div class="jumbotron ">
+                <div class="row">
+                    <div class="col">
+                        <h2>Estas a un paso de conseguir tu hotel ideal</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- final encabezado -->
+        <div class="container">
+                <div class="row">
+                        <div class="col card-hotel">
+                            <h3>Hotel buenos aires</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur corporis, eius, rerum nam eligendi ullam,                         dignissimos omnis inventore excepturi eos aspernatur ab blanditiis. Cum nobis nihil eveniet, 
+                            necessitatibus quae iure!
+                            </p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                        <div class="col card-hotel">
+                            <h3>Hotel caracas</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nostrum distinctio odio alias,                        dolor consectetur. Maiores sequi reprehenderit quis et, eveniet voluptas quos? Natus, beatae dolorem n
+                            ulla blanditiis assumenda officiis
+                            </p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                        <div class="col card-hotel">
+                            <h3>Hotel maracay</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nostrum distinctio odio alias,
+                            dolor consectetur. Maiores sequi reprehenderit quis et, eveniet voluptas quos? Natus, beatae dolorem n
+                            ulla blanditiis assumenda officiis!
+                            </p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                    </div>
                 <div class="row">
                     <div class="col card-hotel">
                         <h3>Hotel buenos aires</h3>
@@ -60,11 +121,46 @@
                     </div>
                 </div>
             </div>  
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 footer-enlaces">
+                            <p>
+                                <a href="#">Facebook</a>
+                            </p>
+                            <p>
+                                <a href="#">Instagram</a>
+                            </p>
+                            <p>
+                                <a href="#">twitter</a>
+                            </p>
+                    </div>
+                    <div class="col-sm-4 footer-enlaces">
+                        <address>
+                            <h3>Oficina central</h3>
+                            <p>CORDOBA 000, CABA, Argentina</p>
+                            <p>11 1234567</p>
+                            <p>guia@hoteles.com</p>
+                        </address>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-enlaces">
+                            <p>
+                                <a href="#">Contacto</a>
+                            </p>
+                            <p>
+                                <a href="#">Sobre nosotros</a>
+                            </p>
+                            <p>
+                                <a href="#">Politicas de privacidad</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+            </div>        
+        </footer>
 <!-- first jquery, second popper-->
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="/node_modules/popper/index.js"></script>
     </body>
-    <footer>
-
-    </footer>
 </html>
