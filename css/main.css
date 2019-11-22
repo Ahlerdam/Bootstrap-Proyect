@@ -20,21 +20,30 @@
 }
 
 .btn{
-    width: 50%;
+    width: 25%;
 }
 
 footer{
-    background-color: rgb(180, 180, 180);
+    background-color:black;
     margin-top: 10px;
 }
 
+.footer-enlaces {
+    margin-top: 20px;
+}
+
+.footer-enlaces address {
+    color: white;
+}
+
+
 .footer-enlaces p a{
-    color:rgb(0, 0, 0);
+    color:rgb(252, 252, 252);
     padding: 10px;
-    margin-top: 10px;
+    
 }
 
 .footer-enlaces p a:hover{
-    color: white;
+    color: rgb(141, 141, 141);
 }
 
