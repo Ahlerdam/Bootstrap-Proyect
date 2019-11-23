@@ -17,7 +17,7 @@
     <body>        
         <!-- #region -->
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary justify-content-between">
-                    <a class="navbar-brand" href="/index.html">Guia Hoteles</a>
+                    <a class="navbar-brand" href="#">Guia Hoteles</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,10 +30,10 @@
                                 <a class="nav-link" href="#">Reservas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/contacto.html">Contacto</a>
+                                <a class="nav-link" href="/contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/precios.html" tabindex="-1" aria-disabled="true">precios</a>
+                                <a class="nav-link active" href="/precios.html" tabindex="-1" aria-disabled="true">precios</a>
                             </li>
                         </ul>
                     </div>
@@ -47,61 +47,63 @@
                     </div>
                 </div>
             </div>
-        <!--  final encabezado -->
-        <!-- #region -->
-        
+            <!-- #region -->
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
-                </ol>
-            </nav>
-        <!-- #endregion -->
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Precios</li>
+                    </ol>
+                </nav>
+            <!-- #endregion -->
+        <!--  final encabezado -->
         <div class="container">
-            <h1>
-                Deja tu comentario
-            </h1>
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <label for="Nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" autofocus>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" type="email" id="email" placeholder="Ingresa tu email">
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-sm-9">
-                        <label for="domicilio">Domicilio</label>
-                        <input class="form-control" type="text" id="domicilio" placeholder="ingresa tu domicilio">
-                    </div>
-                    <div class="form-group col-sm-3">
-                        <label for="provincia">Provincia</label>
-                        <select class="form-control" id="provincia">
-                            <option selected>Capital federal</option>
-                            <option>Mendoza</option>
-                            <option>Cordoba</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="comentario">Comentarios</label>
-                    <textarea class="form-control" id="comentario" rows="5"></textarea>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check">
-                        <label class="form-check-label" for="check">Quiero que me contacten</label>
-                    </div>
-                </div>
-                <button class="btn btn-primary" type="submit">Enviar</button>
-            </form>
+            <table class="table">
+                <thead class="thead-dark">
+                    <th>Calidad</th>
+                    <th>Buenos Aires</th>
+                    <th>Caracas</th>
+                    <th>Maracay</th>
+                    <th>Rio de janeiro</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 estrella</td>
+                        <td>100$</td>
+                        <td>120$</td>
+                        <td>140$</td>
+                        <td>160$</td>
+                    </tr>
+                    <tr>
+                        <td>2 estrellas</td>
+                        <td>200$</td>
+                        <td>220$</td>
+                        <td>240$</td>
+                        <td>260$</td>
+                    </tr>
+                    <tr>
+                        <td>3 estrellas</td>
+                        <td>300$</td>
+                        <td>320$</td>
+                        <td>340$</td>
+                        <td>360$</td>
+                    </tr>
+                    <tr>
+                        <td>4 estrellas</td>
+                        <td>400$</td>
+                        <td>420$</td>
+                        <td>440$</td>
+                        <td>460$</td>
+                    </tr>
+                    <tr>
+                        <td>5 estrella</td>
+                        <td>500$</td>
+                        <td>520$</td>
+                        <td>540$</td>
+                        <td>560$</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+        <!-- #region -->
         <footer>
             <div class="row">
                 <div class="col-sm-4 footer-enlaces">
@@ -138,6 +140,7 @@
                 </div>
             </div>        
         </footer>
+        <!-- #endregion -->
 <!-- first jquery, second popper-->
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="/node_modules/popper/index.js"></script>

@@ -1,8 +1,27 @@
-* {
+/*****************************
+Estilos generales
+******************************/
+* 
+{
     font-family: 'Poppins', sans-serif;
 }
 
+/*****************************
+Estilo columnas
+******************************/
+.col{
+    padding: 10px 10px;
+    margin: 15px 15px 15px 15px;
+}
 
+.card-hotel {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/*****************************
+Estilos de encabezado
+******************************/
 .jumbotron {
     margin-top: 50px;
     background: #8360c3;  /* fallback for old browsers */
@@ -11,18 +30,22 @@
     color: white;
 }
 
+/*****************************
+Estilos de barra de navegacion
+******************************/
 .navconfig .listnav .enlace{
     color: white;
 }
-.col{
-    padding: 10px 10px;
-    margin: 15px 15px 15px 15px;
-}
 
+/*****************************
+Estilo boton
+******************************/
 .btn{
     width: 25%;
 }
-
+/*****************************
+Estilos footer
+******************************/
 footer{
     background-color:black;
     margin-top: 10px;
