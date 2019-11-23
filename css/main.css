@@ -24,9 +24,9 @@ Estilos de encabezado
 ******************************/
 .jumbotron {
     margin-top: 50px;
-    background: #8360c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, rgba(137, 111, 160, 0.5) ,rgb(0, 4, 255, .5)), url(/images/seaside-994605.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -56,17 +56,17 @@ footer{
 }
 
 .footer-enlaces address {
-    color: white;
+    color: gray;
 }
 
 
 .footer-enlaces p a{
-    color:rgb(252, 252, 252);
+    color:gray;
     padding: 10px;
     
 }
 
 .footer-enlaces p a:hover{
-    color: rgb(141, 141, 141);
+    color: white;
 }
 
