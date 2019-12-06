@@ -23,19 +23,37 @@ Estilo columnas
 Estilos de encabezado
 ******************************/
 .jumbotron {
-    margin-top: 50px;
-    background-image: linear-gradient(to right, rgba(137, 111, 160, 0.5) ,rgb(0, 4, 255, .5)), url(/images/seaside-994605.jpg);
+    margin-top: 0px;
+    background-image: url(/images/image1.jpg);
     background-size: cover;
     background-position: center;
     color: white;
+    height: 400px;
+    text-align: center;
 }
 
 /*****************************
 Estilos de barra de navegacion
 ******************************/
-.navconfig .listnav .enlace{
+.navbar{
+    background:rgba(0, 0, 0, 0.6);
+}
+.navbar div ul li a {
     color: white;
 }
+
+.navbar div ul li a:hover{
+    text-decoration-line: underline;
+}
+
+nav a {
+    color: white;
+}
+
+nav button{
+    color: white;
+}
+
 
 /*****************************
 Estilo boton
@@ -63,14 +81,21 @@ footer{
     color: gray;
 }
 
-
 .footer-enlaces p a{
+    color:gray;
+    padding: 10px;
+}
+.footer-enlaces ul li {
+    list-style: none;
+    padding: 10px;
+}
+.footer-enlaces ul li a{
     color:gray;
     padding: 10px;
     
 }
 
-.footer-enlaces p a:hover{
+.footer-enlaces ul li a:hover{
     color: white;
 }
 
