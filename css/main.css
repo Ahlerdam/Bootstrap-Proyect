@@ -40,8 +40,12 @@ Estilos de barra de navegacion
 /*****************************
 Estilo boton
 ******************************/
-.btn{
+.btn-primary{
     width: 25%;
+}
+
+.btn-contacto {
+    width: 100px;
 }
 /*****************************
 Estilos footer

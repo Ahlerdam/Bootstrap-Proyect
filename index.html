@@ -18,12 +18,12 @@
     </head>
     <body>        
         <!-- #region -->
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary justify-content-between">
-                    <a class="navbar-brand" href="/index.html"> <i class="fas fa-globe-americas"></i> Guia Hoteles</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+                    <a class="navbar-brand" href="/index.html"> <i class="fas fa-globe-americas"></i> GUIA HOTELES</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarnav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Hoteles <span class="sr-only">(current)</span></a>
@@ -161,9 +161,42 @@
                                     ulla blanditiis assumenda officiis!
                             </p>
                         </div>
-                        <button class="btn btn-primary">Reservar</button> 
+                        <button type="button" class="btn btn-primary">Reservar</button> 
+                            <button type="button" class="btn btn-contacto btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+                                Contacto
+                            </button>
                     </div>
                 </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Mo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Tu email:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="coment-name" class="col-form-label">Comentario</label>
+                                            <textarea id="coment-name" rows="5"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
+                                    <button type="button" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- fin modal -->
         <footer>
             <div class="row">
                 <div class="col-sm-4 footer-enlaces">
@@ -200,8 +233,9 @@
                 </div>
             </div>        
         </footer>
-<!-- first jquery, second popper-->
+        <!-- first jquery, then popper and bootstrap.js-->
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="/node_modules/popper/index.js"></script>
-    </body>
+        <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </body>
 </html>
