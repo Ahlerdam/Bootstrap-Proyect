@@ -24,7 +24,10 @@ Estilos de encabezado
 ******************************/
 .jumbotron {
     margin-top: 0px;
-    background-image: url(/images/image1.jpg);
+    background: #50C9C3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,rgba(0, 4, 40, .5), rgba(0, 78, 146, .5)), url(/images/image1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-position: center;
     color: white;
