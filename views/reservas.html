@@ -13,38 +13,37 @@
         <!-- Bootstrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <!-- Estilos css -->
-        <link rel="stylesheet" href="/public/css/main.css">
+        <link rel="stylesheet" href="/public/css/styles.css">
         <title>Guia hotelera</title>
     </head>
     <body>        
-        <!-- #region -->
-            <nav class="navbar fixed-top navbar-expand-lg nav-config justify-content-between">
-                    <a class="navbar-brand" href="/views/index.html"><i class="fas fa-globe-americas"></i> GUIA HOTELES</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/views/index.html">Hoteles <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/views/reservas.html">Reservas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="/views/contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/views/precios.html" tabindex="-1" aria-disabled="true">Precios</a>
-                            </li>
-                        </ul>
-                    </div>
-            </nav>
-        <!-- #endregion -->
-        <!-- inicio encabezado -->
-            <!-- inicio carousel -->
+        <!-- inicio nav -->
+        <nav class="navbar fixed-top navbar-expand-lg nav-config justify-content-between">
+            <a class="navbar-brand" href="/views/index.html"> <i class="fas fa-globe-americas"></i> GUIA HOTELES</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/views/index.html">Hoteles <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/views/reservas.html">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/views/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/views/precios.html" tabindex="-1" aria-disabled="true">Precios</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- fin nav -->
+        <!-- inicio carousel -->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <div class="container">
+            <div class="container mt-5 pt-2">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -83,52 +82,56 @@
                 </a>
             </div>
         </div>
-            <!--  final carousel -->
-        <!--  final encabezado -->
+        <!--  final carousel -->
         <!-- #region -->
-        
+        <div class="container mt-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                    <li class="breadcrumb-item">Home<a href="/views/index.html"></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Reserva</li>
                 </ol>
             </nav>
-        <!-- #endregion -->
+        </div>
+    <!-- #endregion -->
+        <!--  reserva -->
         
         <footer>
-            <div class="row">
-                <div class="col-sm-4 footer-enlaces">
-                    <p>
-                        <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-                    </p>
-                    <p>
-                        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                    </p>
-                    <p>
-                        <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-                    </p>
-                </div>
-                <div class="col-sm-4 footer-enlaces">
-                    <address>
-                        <p>Oficina central<p>
-                        <p>CORDOBA 000, CABA, Argentina</p>
-                        <p>11 1234567</p>
-                        <p>guia@hoteles.com</p>
-                    </address>
-                </div>
-                <div class="col-sm-4">
-                    <div class="footer-enlaces">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 footer-social">
                         <p>
-                            <a href="/contacto.html">Contacto</a>
+                            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
                         </p>
                         <p>
-                            <a href="#">Sobre nosotros</a>
+                            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
                         </p>
                         <p>
-                            <a href="#">Politicas de privacidad</a>
+                            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
                         </p>
                     </div>
-                </div>
-            </div>        
+                    <div class="col-sm-4 footer-enlaces">
+                        <address>
+                            <p>OFICINA CENTRAL<p>
+                            <p>CORDOBA 000, CABA, Argentina</p>
+                            <p>11 1234567</p>
+                            <p>guia@hoteles.com</p>
+                        </address>
+                    </div>
+                    <div class="col-sm-4 d-flex justify-content-end align-items-center">
+                        <div class="footer-enlaces">
+                            <p>
+                                <a href="/views/contacto.html">Contacto</a>
+                            </p>
+                            <p>
+                                <a href="#">Sobre nosotros</a>
+                            </p>
+                            <p>
+                                <a href="#">Politicas de privacidad</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
         </footer>
 <!-- first jquery, second popper-->
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>

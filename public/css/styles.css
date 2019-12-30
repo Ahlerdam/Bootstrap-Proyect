@@ -68,7 +68,7 @@ footer{
 }
 
 .footer-enlaces {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .footer-enlaces address {
@@ -88,8 +88,13 @@ footer{
     padding: 10px;
     
 }
-
-.footer-enlaces ul li a:hover{
+.footer-social{
+    margin-top: 40px;
+}
+.footer-social p a {
+    color: gray;
+}
+.footer-social p a:hover{
     color: white;
 }
 
