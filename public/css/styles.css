@@ -29,24 +29,7 @@ Estilos de encabezado
 /*****************************
 Estilos de barra de navegacion
 ******************************/
-.navbar{
-    background:rgba(0, 0, 0, 0.6);
-}
-.navbar div ul li a {
-    color: white;
-}
 
-.navbar div ul li a:hover{
-    text-decoration-line: underline;
-}
-
-nav a {
-    color: white;
-}
-
-nav button{
-    color: white;
-}
 
 
 /*****************************
